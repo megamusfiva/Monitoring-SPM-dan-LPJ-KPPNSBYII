@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "108536152231",
+    "firebase_url": "https://kppniisby.firebaseio.com",
+    "project_id": "kppniisby",
+    "storage_bucket": "kppniisby.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108536152231:android:6818ddb8fb4f5c34d11b82",
+        "android_client_info": {
+          "package_name": "com.example.kppniisby"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108536152231-7dgu9g8g6b0dsq8lghvce9nq23p3lgfk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kppniisby",
+            "certificate_hash": "ab054e421c33475a96bc11aa38d191c9c9097f5c"
+          }
+        },
+        {
+          "client_id": "108536152231-37r3dusju73hinlc77dl8k3v25e2vmfc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2wiOynQRFXBoBI9haBUJzoJ8bp3_iwQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108536152231-37r3dusju73hinlc77dl8k3v25e2vmfc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

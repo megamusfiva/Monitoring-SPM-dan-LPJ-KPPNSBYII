@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".LPJ.LpjHomeActivity">
+    <RelativeLayout
+        android:id="@+id/rl_lpj"
+        android:layout_marginRight="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:paddingLeft="30dp"
+            android:drawablePadding="20dp"
+            android:id="@+id/usernamelpj"
+            android:hint="Masukkan Kode Satker"
+            android:inputType="number"
+            android:maxLength="6"
+            android:backgroundTint="#99D4D8DC"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+        <View
+            android:id="@+id/v_saparator"
+            android:background="#99D4D8DC"
+            android:layout_below="@id/usernamelpj"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+    </RelativeLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_searchlpj"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/rl_lpj"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_search_black_24dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"/>
+    <TextView
+        android:layout_above="@+id/rl_lpj"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="Laporan Pertanggungjawaban Bendahara"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2020 Mega Afyda Some Rights Reserved ">
+    </TextView>
+</RelativeLayout>
